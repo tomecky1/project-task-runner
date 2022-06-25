@@ -1,0 +1,223 @@
+/* Variables */
+/* Global */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", monospace;
+  color: #435261;
+}
+
+section {
+  padding: 96px 0;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 20px 20px;
+  margin: 0 auto;
+}
+
+/* Navigation */
+.navigation {
+  height: 100vh;
+  padding: 20px 0;
+  position: relative;
+  background-image: url("/images/close-up-photography-of-smartphone-beside-binder-clip-1841841.jpeg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navigation-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.brand-title {
+  color: gold;
+  font-family: "Lato", sans-serif;
+  font-style: oblique;
+}
+
+.navigation-menu ul li {
+  display: inline-block;
+}
+.navigation-menu ul li a {
+  text-decoration: none;
+  font-family: "Roboto", monospace;
+  color: #ffffff;
+  padding: 0 20px;
+}
+
+.navigation-menu ul li a:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.splash-inner {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.splash-inner .page-title {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.splash-inner .page-subtitle {
+  font-family: "Roboto", monospace;
+  font-weight: bold;
+  font-size: 58px;
+  color: #ffffff;
+}
+
+.btn {
+  color: #ffffff;
+  background: gold;
+  padding: 20px 25px;
+  font-weight: bold;
+  font-family: "Roboto", monospace;
+  font-size: 32px;
+  border-radius: 5px;
+  border: 1px #000000 solid;
+  text-decoration: none;
+}
+
+/* Services */
+.container h1, p {
+  text-align: center;
+}
+
+.container h1 {
+  color: #000000;
+  font-size: 40px;
+  font-family: "Roboto", monospace;
+  font-weight: bold;
+}
+
+.container p {
+  font-style: italic;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  color: #b4b4b4;
+}
+
+.card-body h3 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.card-body p {
+  text-align: center;
+  color: #b4b4b4;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.card-image {
+  text-align: center;
+  text-align: -webkit-center;
+}
+.card-image i {
+  display: flex;
+  text-align: center;
+  font-size: 44px;
+  color: gold;
+  background: #ffffff;
+  width: 76px;
+  height: 76px;
+  border: gold 3px solid;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Portfolio */
+.portfolio {
+  background: #f3f1f1;
+}
+.portfolio .card-body {
+  display: flex;
+  background: #ffffff;
+  border: 1px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+  background: #ffffff;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer .footer-company {
+  font-size: 14px;
+  font-family: "Roboto", monospace;
+  font-weight: bold;
+  color: #435261;
+}
+
+.footer .social-links ul li {
+  display: inline-block;
+  font-size: 0;
+}
+.footer .social-links ul li a {
+  text-decoration: none;
+}
+.footer .social-links ul li i {
+  font-size: 36px;
+  color: #435261;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .navigation-menu ul li a {
+    padding: 0;
+  }
+  .wrapper {
+    flex-direction: column;
+  }
+  .splash-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .splash-inner .page-title {
+    font-size: 20px;
+    margin: 0 auto;
+  }
+  .splash-inner .page-subtitle {
+    font-size: 40px;
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBY0EsV0FBQTtBQUNBO0VBQ0Usc0JBQUE7QUNaRjs7QURjQTtFQUNFLFNBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxnQ0FiVTtFQWNWLGNBckJVO0FDVVo7O0FEYUE7RUFDRSxlQUFBO0FDVkY7O0FEWUE7RUFDRSxpQkFBQTtFQUNBLGtCQUFBO0VBQ0EsY0FBQTtBQ1RGOztBRFdBLGVBQUE7QUFDQTtFQUNFLGFBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxtR0FBQTtFQUNBLGtDQUFBO0VBQ0EsNEJBQUE7RUFDQSxzQkFBQTtBQ1JGOztBRFVBO0VBQ0UsYUFBQTtFQUNBLGlCQUFBO0VBQ0EsNkJBQUE7RUFDQSxtQkFBQTtBQ1BGOztBRFNBO0VBQ0UsV0E3Q1c7RUE4Q1gsK0JBM0NXO0VBNENYLG1CQUFBO0FDTkY7O0FEU0E7RUFDRSxxQkFBQTtBQ05GO0FET0U7RUFDRSxxQkFBQTtFQUNBLGdDQWxEUTtFQW1EUixjQTNEUztFQTREVCxlQUFBO0FDTEo7O0FEUUE7RUFDRSxtQkFoRVc7RUFpRVgsY0EvRFk7QUMwRGQ7O0FET0E7RUFDRSxrQkFBQTtFQUNBLGtCQUFBO0VBQ0EsUUFBQTtFQUNBLFNBQUE7RUFDQSxnQ0FBQTtBQ0pGOztBRE1BO0VBQ0UsK0JBcEVXO0VBcUVYLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLGNBOUVXO0FDMkViOztBREtBO0VBQ0UsZ0NBekVVO0VBMEVWLGlCQUFBO0VBQ0EsZUFBQTtFQUNBLGNBcEZXO0FDa0ZiOztBRElBO0VBQ0UsY0F2Rlc7RUF3RlgsZ0JBcEZXO0VBcUZYLGtCQUFBO0VBQ0EsaUJBQUE7RUFDQSxnQ0FuRlU7RUFvRlYsZUFBQTtFQUNBLGtCQUFBO0VBQ0EseUJBQUE7RUFDQSxxQkFBQTtBQ0RGOztBREdBLGFBQUE7QUFDQTtFQUNFLGtCQUFBO0FDQUY7O0FERUE7RUFDRSxjQXBHWTtFQXFHWixlQUFBO0VBQ0EsZ0NBaEdVO0VBaUdWLGlCQUFBO0FDQ0Y7O0FEQ0E7RUFDRSxrQkFBQTtFQUNBLGVBQUE7RUFDQSwrQkF2R1c7RUF3R1gsY0ExR1c7QUM0R2I7O0FEQUE7RUFDRSxrQkFBQTtFQUNBLGNBakhZO0VBa0haLGdCQUFBO0FDR0Y7O0FEREE7RUFDRSxrQkFBQTtFQUNBLGNBbkhXO0VBb0hYLGVBQUE7RUFDQSxhQUFBO0FDSUY7O0FERkE7RUFDRSxrQkFBQTtFQUNBLDBCQUFBO0FDS0Y7QURKRTtFQUNFLGFBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxXQS9IUztFQWdJVCxtQkFwSVM7RUFxSVQsV0FBQTtFQUNBLFlBQUE7RUFDQSxzQkFBQTtFQUNBLGtCQUFBO0VBQ0EsdUJBQUE7RUFDQSxtQkFBQTtBQ01KOztBREhBLGNBQUE7QUFDQTtFQUNFLG1CQUFBO0FDTUY7QURMRTtFQUNFLGFBQUE7RUFDQSxtQkFsSlM7RUFtSlQsV0FBQTtFQUNBLHNCQUFBO0VBQ0EsdUJBQUE7RUFDQSxlQUFBO0FDT0o7O0FESkE7RUFDRSxXQUFBO0VBQ0EsYUFBQTtFQUNBLG9CQUFBO0tBQUEsaUJBQUE7RUFDQSxnQkFBQTtBQ09GOztBRExBLFdBQUE7QUFDQTtFQUNFLG1CQWpLVztBQ3lLYjs7QUROQTtFQUNFLGFBQUE7RUFDQSw2QkFBQTtFQUNBLG1CQUFBO0FDU0Y7O0FEUEE7RUFDRSxlQUFBO0VBQ0EsZ0NBbEtVO0VBbUtWLGlCQUFBO0VBQ0EsY0EzS1U7QUNxTFo7O0FEUkE7RUFDRSxxQkFBQTtFQUNBLFlBQUE7QUNXRjtBRFZFO0VBQ0UscUJBQUE7QUNZSjtBRFZFO0VBQ0UsZUFBQTtFQUNBLGNBckxRO0FDaU1aOztBRFRBLFdBQUE7QUFDQTtFQUNFO0lBQ0UsVUFBQTtFQ1lGO0VEVkE7SUFDRSxzQkFBQTtFQ1lGO0VEVkE7SUFDRSxhQUFBO0lBQ0Esc0JBQUE7SUFDQSx1QkFBQTtJQUNBLGlCQUFBO0VDWUY7RURWQTtJQUNFLGVBQUE7SUFDQSxjQUFBO0VDWUY7RURWQTtJQUNFLGVBQUE7SUFDQSxjQUFBO0VDWUY7QUFDRiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
