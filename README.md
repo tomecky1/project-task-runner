@@ -3,6 +3,8 @@
 ## DEMO
 [Site Preview](https://tomecky1.github.io/project-4-task-runner/)
 
+![Splash intro](/images/splash.jpg)
+
 ### ABOUT
 Landing page of branding agency made with task runner and partially Bootsstrap 4.5
 
