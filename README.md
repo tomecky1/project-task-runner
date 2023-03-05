@@ -1,7 +1,7 @@
 # Welcome to my landing page with task-runner this time 😊
 
 ## DEMO
-[Site Preview](https://tomecky1.github.io/project-4-task-runner/)
+[Site Preview](https://tomecky1.github.io/project-task-runner/)
 
 ![Splash intro](/images/splash.jpg)
 
